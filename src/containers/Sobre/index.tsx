@@ -11,7 +11,7 @@ const Sobre = () => (
       aspernatur enim dolorem incidunt doloremque minus mollitia tempore laborum
     </Paragrafo>
     <GithubSecao>
-      <img src="https://github-readme-stats.vercel.app/api?username=OBrunooo&show_icons=true&theme=dracula&include_all_commits=true&count_private=false" />
+      <img src="https://github-readme-stats.vercel.app/api?username=OBrunooo&show_icons=true&theme=dracula" />
       <img src="https://github-readme-stats.vercel.app/api/top-langs/?username=OBrunooo&layout=compact&langs_count=7&theme=dracula" />
     </GithubSecao>
   </section>
