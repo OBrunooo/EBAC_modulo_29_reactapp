@@ -4,7 +4,11 @@ import Titulo from '../../components/Title'
 
 import { BotaoTema, Descricao, SidebarContainer } from './styles'
 
-const Sidebar = () => (
+type Props = {
+  trocaTema: () => void
+}
+
+const Sidebar = (props: Props) => (
   <>
     <aside>
       <SidebarContainer>
@@ -16,7 +20,7 @@ const Sidebar = () => (
         <Descricao tipo="principal" fontSize={12}>
           Engenheiro Front-end
         </Descricao>
-        <BotaoTema>Troca tema</BotaoTema>
+        <BotaoTema onClick={props.trocaTema}>Troca tema</BotaoTema>
       </SidebarContainer>
     </aside>
   </>
